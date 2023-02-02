@@ -6,6 +6,6 @@ When I learned CUDA, I found that just about every tutorial and course starts wi
 So how should it be?
 
 The problem with "Hello World!" for CUDA is simply this: You can't just printf("Hello World!\n"), because then you are not running any CUDA at all it would just be a C example, "Hello World!" for CUDA must do something in parallel, with a kernel run in the GPU.
-Here is my version: I take the string "Hello ", and send that sequel as array 15, 10, 6, 0, -11, 1 to the kernel. The kernel adds the array elements to string, which produces the array "World!". This string is passed back to the host and printed out.
+Here is my version: It takes the string "Hello ", and send that sequel as array 15, 10, 6, 0, -11, 1 to the kernel. The kernel adds the array elements to the string, which produces the array "World!". This string is passed back to the host and printed out.
 
 Simple, parallel, relevant, and the output is Hello World!
