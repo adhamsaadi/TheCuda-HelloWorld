@@ -1,6 +1,4 @@
 # TheCuda-HelloWorld
-This is the REAL "hello world" for CUDA!
-
 When I learned CUDA, I found that just about every tutorial and course starts with something that they call "Hello World". But, usually that was not "Hello world" program at all!, "Hello world!" in Cuda should produce a string identical to "Hello World!", it should not print several strings, and it should not do other irrelevant things!
 
 So how should it be?
