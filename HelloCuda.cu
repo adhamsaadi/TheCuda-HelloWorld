@@ -1,4 +1,3 @@
-// Adham-95@windowslive.com
 #include <stdio.h>
 
 const int N = 13; 
@@ -37,7 +36,3 @@ int main()
 	printf("%s\n", a);
 	return 0;
 }
-
-// Execution commands in linux
-//	nvcc HelloCuda.cu -o HelloCuda
-//	./HelloCuda
